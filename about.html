@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>발산 노래방 정보 - bro들의 리얼 후기</title>
+    <meta name="description" content="발산에서 진짜 노래방 찾는 bro들을 위한 정보. 내돈내산 리뷰, 가격, 분위기까지 다 까발림. 예약은 010-6279-0862">
+    <meta name="keywords" content="발산 노래방, 발산역 노래방, 발산 노래방 추천, 발산 가성비 노래방, 발산 코인노래방, 발산 노래방 가격, 발산 노래방 후기, t3b06-bs-kb-info-1">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <link rel="canonical" href="https://t3b06-bs-kb-info-1.vercel.app/">
+    <meta property="og:title" content="발산 노래방 정보 - bro들의 리얼 후기">
+    <meta property="og:description" content="발산에서 노래방 찾는다면? 가격, 시설, 분위기까지 내돈내산으로 다 알려준다. 예약 필수!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b06-bs-kb-info-1.vercel.app/">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #f4f4f4; color: #111; line-height: 1.6; }
+        a { color: #111; text-decoration: underline; text-underline-offset: 3px; }
+        a:hover { color: #e10600; }
+        ul, ol { list-style: none; }
+        img { max-width: 100%; display: block; }
+        h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; text-transform: uppercase; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .section { padding: 80px 0; position: relative; }
+        .section::before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 90%; height: 4px; background: #e10600; }
+        h1 { font-size: 4.8rem; letter-spacing: -3px; }
+        h2 { font-size: 3.5rem; margin-bottom: 40px; border-left: 8px solid #e10600; padding-left: 20px; }
+        h3 { font-size: 2.2rem; margin-bottom: 20px; }
+        h4 { font-size: 1.6rem; margin-bottom: 15px; }
+        .nav-bar { background: #111; color: #ffee00; padding: 15px 0; position: sticky; top: 0; z-index: 1000; }
+        .nav-bar .container { display: flex; align-items: center; justify-content: space-between; }
+        .nav-logo { font-size: 2rem; font-weight: 900; text-transform: uppercase; letter-spacing: -1px; color: #ffee00; text-decoration: none; }
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { color: #ffee00; font-weight: 700; font-size: 1.1rem; text-decoration: none; text-underline-offset: 4px; }
+        .nav-links a:hover { color: #fff; text-decoration: underline; }
+        .hamburger { display: none; cursor: pointer; color: #ffee00; font-size: 2rem; background: none; border: none; }
+        .hero { background: #111; color: #ffee00; padding: 120px 0 80px; margin-top: -1px; }
+        .hero h1 { max-width: 900px; }
+        .hero p { font-size: 1.4rem; max-width: 700px; margin: 30px 0; font-weight: 600; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: #fff; border: 4px solid #111; padding: 30px; transition: all 0.2s; }
+        .card:hover { transform: translate(-4px, -4px); box-shadow: 8px 8px 0 #111; }
+        .card h3 { font-size: 1.8rem; }
+        .card .price { font-size: 2rem; font-weight: 900; color: #e10600; }
+        .faq-list { margin-top: 40px; }
+        .faq-item { border-bottom: 2px solid #111; padding: 20px 0; }
+        .faq-question { font-weight: 700; font-size: 1.3rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question::after { content: '+'; font-size: 2rem; transition: transform 0.2s; }
+        .faq-item.active .faq-question::after { transform: rotate(45deg); }
+        .faq-answer { display: none; margin-top: 15px; font-size: 1.1rem; }
+        .faq-item.active .faq-answer { display: block; }
+        .cta-box { background: #ffee00; border: 4px solid #111; padding: 40px; text-align: center; margin-top: 60px; }
+        .cta-box h3 { font-size: 2.5rem; }
+        .btn { display: inline-block; background: #111; color: #ffee00; padding: 15px 40px; font-weight: 900; font-size: 1.2rem; text-decoration: none; border: none; cursor: pointer; transition: 0.2s; margin-top: 20px; }
+        .btn:hover { background: #e10600; color: #fff; }
+        .footer { background: #111; color: #ffee00; padding: 40px 0; text-align: center; }
+        .footer a { color: #ffee00; }
+        .footer .nav-links { justify-content: center; margin-bottom: 20px; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.8rem; letter-spacing: -2px; }
+            h2 { font-size: 2.2rem; }
+            .hero { padding: 80px 0 50px; }
+            .hero h1 { font-size: 2.5rem; }
+            .hero p { font-size: 1.1rem; }
+            .nav-links { display: none; flex-direction: column; background: #111; position: absolute; top: 60px; left: 0; width: 100%; padding: 20px; gap: 15px; }
+            .nav-links.active { display: flex; }
+            .hamburger { display: block; }
+            .card-grid { grid-template-columns: 1fr; }
+            .cta-box h3 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <a href="/" class="nav-logo">발산노래방</a>
+            <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/reviews">리뷰</a>
+                <a href="/map">지도</a>
+                <a href="/booking">예약</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1>발산 노래방,<br>가성비 끝판왕 까발림</h1>
+            <p>내돈내산으로 10군데 넘게 돌아다닌 bro가 알려주는 찐 정보. 가격, 시설, 분위기 다 공개함.</p>
+            <a href="#details" class="btn">자세히 보기 ↓</a>
+        </div>
+    </section>
+
+    <section class="section" id="details">
+        <div class="container">
+            <h2>💰 가격 &amp; 시간</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>코인 노래방</h3>
+                    <p class="price">1곡 500원</p>
+                    <p>보통 30분에 3,000원 정도. 최신곡 많고 부스 방음 괜찮은 곳 추천. 발산역 3번 출구 근처에 꽤 있음.</p>
+                </div>
+                <div class="card">
+                    <h3>일반 노래방 (방)</h3>
+                    <p class="price">1시간 15,000원</p>
+                    <p>주말엔 20,000원까지도 함. 대신 마이크 음질이 좋고 리모컨이 깔끔. 음료 무료 리필 되는 곳이 꿀.</p>
+                </div>
+                <div class="card">
+                    <h3>프리미엄 룸</h3>
+                    <p class="price">2시간 50,000원</p>
+                    <p>인원 6~8명 가능. 소파 크고 조명 예쁨. 내가 가본 곳 중에 '발산가요'가 분위기 최고였음. 예약 필수.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: #fff5e6;">
+        <div class="container">
+            <h2>🎤 시설 &amp; 분위기</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>방음</h3>
+                    <p>옆방 소리 거의 안 들림. 두꺼운 문 + 이중벽 구조인 곳이 베스트. '노래방 천국'은 방음 완전 굿.</p>
+                </div>
+                <div class="card">
+                    <h3>마이크</h3>
+                    <p>무선 마이크 기본. 에코 조절 잘 되는 곳 추천. 내가 간 곳 중 '발산보이스'는 마이크가 3개나 있어서 그룹으로 가면 좋았음.</p>
+                </div>
+                <div class="card">
+                    <h3>청결도</h3>
+                    <p>담배 냄새 없는 곳을 원한다면 '발산클린' 강추. 매일 소독한다고 스티커 붙어있고, 화장실도 깔끔.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>🔥 bro들의 꿀팁</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>시간대 공략</h3>
+                    <p>평일 오후 2~5시가 가장 쌈. 1시간에 8,000원까지 내려가는 곳도 있음. 주말 밤은 피하는 게 좋아.</p>
+                </div>
+                <div class="card">
+                    <h3>음료 꿀팁</h3>
+                    <p>음료 무료인 곳 찾아가. '발산노래모임'은 콜라, 사이다 무한 리필. 대신 매너 타임 지키기.</p>
+                </div>
+                <div class="card">
+                    <h3>예약 필수</h3>
+                    <p>인기 있는 곳은 주말에 무조건 예약해야 함. 010-6279-0862로 전화하면 친절하게 안내해줌. 나도 거기서 예약했어.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: #111; color: #ffee00;">
+        <div class="container">
+            <h2 style="border-left-color: #ffee00;">❓ 자주 묻는 질문</h2>
+            <div class="faq-list">
+                <div class="faq-item active">
+                    <div class="faq-question">코인 노래방이랑 일반 노래방 중 뭐가 나을까?</div>
+                    <div class="faq-answer">혼자 연습할 거면 코인 노래방이 가성비 좋고, 친구랑 놀러 가면 일반 노래방이 분위기 좋아. 나는 둘 다 자주 가는데, 2~3명이면 일반 방이 더 재밌더라.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">주차 가능한 노래방 있어?</div>
+                    <div class="faq-answer">발산역 주변은 주차장이 좀 빡빡해. '발산드라이브'라는 곳이 전용 주차장 5대 가능하고, 근처 공영주차장 이용하면 1시간 1,000원이야.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">노래방에서 음식 주문 가능해?</div>
+                    <div class="faq-answer">몇몇 곳은 봉지과자랑 음료만 팔고, '발산파티' 같은 곳은 치킨, 떡볶이 배달 주문 가능해. 전화로 미리 물어보는 게 확실.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">혼자 가도 괜찮아?</div>
+                    <div class="faq-answer">당연히 괜찮지! 코인 노래방은 혼자 오는 사람 많아. 나도 가끔 혼자 가서 스트레스 풀어. 발산역 3번 출구 앞 '코인팡'은 혼밥(?)하기 좋아.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="cta-box">
+                <h3>지금 예약하고 bro들끼리 노래방 가자!</h3>
+                <p>전화 예약하면 대기 없이 바로 입장 가능. 평일 할인도 물어보셈.</p>
+                <a href="tel:01062790862" class="btn">010-6279-0862 전화걸기</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="nav-links">
+                <a href="/">홈</a>
+                <a href="/info">정보</a>
+                <a href="/reviews">리뷰</a>
+                <a href="/map">지도</a>
+                <a href="/booking">예약</a>
+            </div>
+            <p>©
+</body>
+</html>
